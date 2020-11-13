@@ -1,4 +1,6 @@
-module github.com/TuyaInc/pulsar-client-go
+module github.com/tuya/pulsar-client-go
+
+go 1.15
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect

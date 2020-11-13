@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/core/frame"
-	"github.com/TuyaInc/pulsar-client-go/core/msg"
-	"github.com/TuyaInc/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
+	"github.com/tuya/pulsar-client-go/core/frame"
+	"github.com/tuya/pulsar-client-go/core/msg"
+	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 func TestConsumer_Flow(t *testing.T) {

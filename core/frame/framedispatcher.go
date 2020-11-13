@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/TuyaInc/pulsar-client-go/utils"
+	"github.com/tuya/pulsar-client-go/utils"
 )
 
 // NewFrameDispatcher returns an instantiated FrameDispatcher.

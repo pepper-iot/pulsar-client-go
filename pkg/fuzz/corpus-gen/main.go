@@ -24,7 +24,7 @@ import (
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
-	"github.com/TuyaInc/pulsar-client-go/core/frame"
+	"github.com/tuya/pulsar-client-go/core/frame"
 )
 
 func main() {

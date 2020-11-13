@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/pkg/api"
+	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 // NewClientPool initializes a ClientPool.

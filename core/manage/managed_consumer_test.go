@@ -20,10 +20,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/TuyaInc/pulsar-client-go/core/frame"
-	"github.com/TuyaInc/pulsar-client-go/core/msg"
-	"github.com/TuyaInc/pulsar-client-go/core/srv"
-	"github.com/TuyaInc/pulsar-client-go/pkg/api"
+	"github.com/tuya/pulsar-client-go/core/frame"
+	"github.com/tuya/pulsar-client-go/core/msg"
+	"github.com/tuya/pulsar-client-go/core/srv"
+	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 func TestManagedConsumer(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/TuyaInc/pulsar-client-go/core/frame"
-	"github.com/TuyaInc/pulsar-client-go/core/msg"
-	"github.com/TuyaInc/pulsar-client-go/pkg/api"
-	"github.com/TuyaInc/pulsar-client-go/utils"
+	"github.com/tuya/pulsar-client-go/core/frame"
+	"github.com/tuya/pulsar-client-go/core/msg"
+	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/tuya/pulsar-client-go/utils"
 )
 
 // ErrClosedProducer is returned when attempting to send

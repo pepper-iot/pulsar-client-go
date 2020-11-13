@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/core/msg"
-	"github.com/TuyaInc/pulsar-client-go/utils"
+	"github.com/tuya/pulsar-client-go/core/msg"
+	"github.com/tuya/pulsar-client-go/utils"
 )
 
 func TestManagedConsumer_Int_ReceiveAsync(t *testing.T) {
