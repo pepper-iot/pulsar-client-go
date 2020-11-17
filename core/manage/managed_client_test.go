@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/core/srv"
-	"github.com/TuyaInc/pulsar-client-go/pkg/api"
+	"github.com/tuya/pulsar-client-go/core/srv"
+	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 func TestManagedClient(t *testing.T) {

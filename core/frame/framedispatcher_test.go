@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/pkg/api"
+	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 type dispatcherTestCase struct {

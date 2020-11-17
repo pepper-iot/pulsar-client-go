@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/core/msg"
-	"github.com/TuyaInc/pulsar-client-go/core/sub"
-	"github.com/TuyaInc/pulsar-client-go/pkg/log"
-	"github.com/TuyaInc/pulsar-client-go/utils"
+	"github.com/tuya/pulsar-client-go/core/msg"
+	"github.com/tuya/pulsar-client-go/core/sub"
+	"github.com/tuya/pulsar-client-go/pkg/log"
+	"github.com/tuya/pulsar-client-go/utils"
 )
 
 // SubscriptionMode represents Pulsar's three subscription models

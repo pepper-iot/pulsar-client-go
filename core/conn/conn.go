@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/core/frame"
-	"github.com/TuyaInc/pulsar-client-go/pkg/api"
-	"github.com/TuyaInc/pulsar-client-go/pkg/log"
+	"github.com/tuya/pulsar-client-go/core/frame"
+	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/tuya/pulsar-client-go/pkg/log"
 )
 
 // NewTCPConn creates a core using a TCPv4 connection to the given

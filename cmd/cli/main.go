@@ -31,8 +31,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/TuyaInc/pulsar-client-go/core/manage"
-	"github.com/TuyaInc/pulsar-client-go/core/msg"
+	"github.com/tuya/pulsar-client-go/core/manage"
+	"github.com/tuya/pulsar-client-go/core/msg"
 )
 
 var args = struct {

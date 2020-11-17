@@ -2,7 +2,7 @@
 
 ## 介绍
 
-`native pulsar go client` 是基于 comcast 的 [pulsar-client-go](https://github.com/Comcast/pulsar-client-go) 来继续 catch up 相应的功能，目前项目被 fork 到 tuyainc 的 [pulsar-client-go](https://github.com/TuyaInc/pulsar-client-go) 下面，后续的研发工作将在该项目下面进行。
+`native pulsar go client` 是基于 comcast 的 [pulsar-client-go](https://github.com/Comcast/pulsar-client-go) 来继续 catch up 相应的功能，目前项目被 fork 到 tuyainc 的 [pulsar-client-go](https://github.com/tuya/pulsar-client-go) 下面，后续的研发工作将在该项目下面进行。
 
 ## 前期准备：
 
@@ -19,7 +19,7 @@
 
 - ### fork 
 
-将  [pulsar-client-go](https://github.com/TuyaInc/pulsar-client-go) fork 到自己的 github 下
+将  [pulsar-client-go](https://github.com/tuya/pulsar-client-go) fork 到自己的 github 下
 
 ## Requirements
 
