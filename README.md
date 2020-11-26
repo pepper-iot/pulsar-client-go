@@ -1,17 +1,19 @@
 # pulsar-client-go
 
-=========
+[English](README.md) | [中文版](README_cn.md)
 
-A Go client library for the [Apache Pulsar](https://pulsar.incubator.apache.org/) project.
+## Introduction
 
-基于[Comcast](https://github.com/Comcast/pulsar-client-go) 和 [wolfstudy](https://github.com/Comcast/pulsar-client-go)两个项目开发，完全用go实现的pulsar-client
+Tuya pulsar client SDK for Golang
 
-## 主要优化以下几个点
+## Get Started
 
-1. 修复java-client默认使用batch方式推送消息，go-client接收消息时会出现乱码
 
-2. 修复failover模式下，在新的consumer加入时，会出现部分消息重复消费的问题
 
-3. 修复pulsar-broker 进行负载均衡时，会出现topic重启以及broker迁移，此时会导致部分消息重复消费
+## Support
 
-4. 优化初始化时内存占用过高的问题
+You can get support from Tuya with the following methods:
+
+- Tuya Smart Help Center: [https://support.tuya.com/en/help](https://support.tuya.com/en/help)
+- Technical Support Council: [https://iot.tuya.com/council](https://iot.tuya.com/council)
+
