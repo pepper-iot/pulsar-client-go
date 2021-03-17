@@ -6,7 +6,7 @@
 
 A Go client library for the [Apache Pulsar](https://pulsar.incubator.apache.org/) project.
 
-基于[Comcast](https://github.com/Comcast/pulsar-client-go) 和 [wolfstudy](https://github.com/Comcast/pulsar-client-go)两个项目开发，完全用go实现的pulsar-client
+基于[Comcast](https://github.com/Comcast/pulsar-client-go) 和 [wolfstudy](https://github.com/Comcast/pulsar-client-go)两个项目开发，完全用go实现的pulsar-client
 
 ## 主要优化以下几个点
 
@@ -18,6 +18,11 @@ A Go client library for the [Apache Pulsar](https://pulsar.incubator.apache.org/
 
 4. 优化初始化时内存占用过高的问题
 
+## 准备
+Go 1.11+ .
+
+## Example
+生产者消费者示例见： [cli](https://github.com/tuya/tuya-pulsar-client-go/blob/main/cmd/cli/main.go) .
 
 ## 技术支持
 
