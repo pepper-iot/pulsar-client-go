@@ -1,27 +1,28 @@
-# pulsar-client-go
-
-[English](README.md) | [中文版](README_cn.md)
-
 ## Introduction
 
-Tuya pulsar client SDK for Golang based on [Comcast](https://github.com/Comcast/pulsar-client-go) and [wolfstudy](https://github.com/Comcast/pulsar-client-go). A Go client library for the [Apache Pulsar](https://pulsar.incubator.apache.org/) project.
+A Go client library for the [Apache Pulsar](https://pulsar.incubator.apache.org/) project.
 
-## What's new
+Developed based on two projects [Comcast](https://github.com/Comcast/pulsar-client-go) and [wolfstudy](https://github.com/Comcast/pulsar-client-go), completely using go Implemented pulsar-client.
 
-1. Fixed the problem of messy code when go-client receives messages that are pushed by java-client through batch.
+## Mainly optimize the following points
 
-2. Fixed the problem of repeated consumption of some messages when a new consumer joins in failover mode.
+* Fixed the problem of messy code when go-client receives messages that are pushed by java-client through batch.
 
-3. Fixed the problem of repeated consumption of some messages during topic restart and broker migration, when pulsar-broker executes load balancing.
+* Fixed the problem of repeated consumption of some messages when a new consumer joins in failover mode.
 
-4. Optimized the problem of high memory usage during initialization.
+* Fixed the problem of repeated consumption of some messages during topic restart and broker migration, when pulsar-broker executes load balancing.
 
+* Optimized the problem of high memory usage during initialization.
 
+## Prepare
+Go 1.11+.
 
-## Support
+## Example
+For examples of producers and consumers, see [cli](https://github.com/tuya/tuya-pulsar-client-go/blob/main/cmd/cli/main.go).
 
-You can get support from Tuya with the following methods:
+## Technical Support
 
-- [Tuya Smart Help Center](https://support.tuya.com/en/help)
-- [Technical Ticket](https://iot.tuya.com/council)
+You can get Tuya developer technical support in the following ways:
 
+* [Tuya Help Center](https://support.tuya.com/zh/help)
+* [Tuya technical ticket platform](https://iot.tuya.com/council)
