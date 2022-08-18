@@ -16,9 +16,9 @@ package sub
 import (
 	"sync"
 
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/core/pub"
-	"github.com/tuya/pulsar-client-go/utils"
+	"github.com/pepper-iot/pulsar-client-go/core/frame"
+	"github.com/pepper-iot/pulsar-client-go/core/pub"
+	"github.com/pepper-iot/pulsar-client-go/utils"
 )
 
 // NewSubscriptions returns a ready-to-use subscriptions.

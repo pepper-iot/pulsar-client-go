@@ -16,7 +16,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
 )
 
 // AsyncErrors provides idiom for sending in a non-blocking

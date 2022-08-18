@@ -20,7 +20,7 @@ import (
 	"io"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
 )
 
 // MaxFrameSize is defined by the Pulsar spec with a single

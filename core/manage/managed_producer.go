@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tuya/pulsar-client-go/core/pub"
-	"github.com/tuya/pulsar-client-go/pkg/api"
-	"github.com/tuya/pulsar-client-go/utils"
+	"github.com/pepper-iot/pulsar-client-go/core/pub"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/utils"
 )
 
 // ProducerConfig is used to configure a ManagedProducer.

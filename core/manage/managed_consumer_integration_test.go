@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tuya/pulsar-client-go/core/msg"
-	"github.com/tuya/pulsar-client-go/utils"
+	"github.com/pepper-iot/pulsar-client-go/core/msg"
+	"github.com/pepper-iot/pulsar-client-go/utils"
 )
 
 func TestManagedConsumer_Int_ReceiveAsync(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"io"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
 )
 
 // Message represents a received MESSAGE from the Pulsar server.

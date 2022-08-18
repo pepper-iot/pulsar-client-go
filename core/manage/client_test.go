@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tuya/pulsar-client-go/core/msg"
-	"github.com/tuya/pulsar-client-go/core/sub"
-	"github.com/tuya/pulsar-client-go/pkg/api"
-	"github.com/tuya/pulsar-client-go/utils"
+	"github.com/pepper-iot/pulsar-client-go/core/msg"
+	"github.com/pepper-iot/pulsar-client-go/core/sub"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/utils"
 )
 
 // TestClient_Int_PubSub creates a producer and multiple consumers.

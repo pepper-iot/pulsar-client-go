@@ -19,9 +19,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/pkg/api"
-	"github.com/tuya/pulsar-client-go/utils"
+	"github.com/pepper-iot/pulsar-client-go/core/frame"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/utils"
 )
 
 // NewConnector returns a ready-to-use connector.

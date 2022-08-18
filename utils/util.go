@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
 )
 
 // ################

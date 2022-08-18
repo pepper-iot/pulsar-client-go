@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/pepper-iot/pulsar-client-go/core/frame"
+	"github.com/pepper-iot/pulsar-client-go/pkg/api"
 )
 
 // mockReadCloser wraps a io.Reader with a no-op Close method.
