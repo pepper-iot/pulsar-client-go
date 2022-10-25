@@ -14,6 +14,7 @@ type ConsumerConfig struct {
 	Topic string
 	Auth  AuthProvider
 	manage.SubscriptionMode
+	Earliest bool // default is latest, otherwise GETS ALL MESSAGES
 }
 
 type consumerImpl struct {
