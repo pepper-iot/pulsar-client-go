@@ -4,6 +4,7 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
+	"os"
 	"strings"
 	"time"
 
@@ -54,6 +55,10 @@ func NewClient(cfg ClientConfig) Client {
 }
 
 func subscriptionName(topic string) string {
+	envName := os.Getenv("SUBSCRIPTION_NAME")
+	if envName != "" {
+		return envName
+	}
 	return getTenant(topic) + "-sub"
 }
 
