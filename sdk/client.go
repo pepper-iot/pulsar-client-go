@@ -55,7 +55,7 @@ func NewClient(cfg ClientConfig) Client {
 }
 
 func subscriptionName(topic string) string {
-	envName := os.Getenv("SUBSCRIPTION_NAME")
+	envName := os.Getenv("PULSAR_SUBSCRIPTION_NAME")
 	if envName != "" {
 		return envName
 	}
