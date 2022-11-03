@@ -373,9 +373,9 @@ func (m *ManagedConsumer) newConsumer(ctx context.Context) (*sub.Consumer, error
 	case SubscriptionModeExclusive:
 		return client.NewExclusiveConsumer(ctx, m.cfg.Topic, m.cfg.Name, m.cfg.Earliest, m.queue)
 	case SubscriptionModeFailover:
-		return client.NewFailoverConsumer(ctx, m.cfg.Topic, m.cfg.Name, m.queue)
+		return client.NewFailoverConsumer(ctx, m.cfg.Topic, m.cfg.Name, m.cfg.Earliest, m.queue)
 	case SubscriptionModeShard:
-		return client.NewSharedConsumer(ctx, m.cfg.Topic, m.cfg.Name, m.queue)
+		return client.NewSharedConsumer(ctx, m.cfg.Topic, m.cfg.Name, m.cfg.Earliest, m.queue)
 	default:
 		return nil, ErrorInvalidSubMode
 	}

@@ -178,8 +178,12 @@ func (c *Client) NewProducer(ctx context.Context, topic, producerName string) (*
 // given topic.
 // See "Subscription modes" for more information:
 // https://pulsar.incubator.apache.org/docs/latest/getting-started/ConceptsAndArchitecture/#Subscriptionmodes-jdrefl
-func (c *Client) NewSharedConsumer(ctx context.Context, topic, subscriptionName string, queue chan msg.Message) (*sub.Consumer, error) {
-	return c.Pubsub.Subscribe(ctx, topic, subscriptionName, api.CommandSubscribe_Shared, api.CommandSubscribe_Latest, queue)
+func (c *Client) NewSharedConsumer(ctx context.Context, topic, subscriptionName string, earliest bool, queue chan msg.Message) (*sub.Consumer, error) {
+	initialPosition := api.CommandSubscribe_Latest
+	if earliest {
+		initialPosition = api.CommandSubscribe_Earliest
+	}
+	return c.Pubsub.Subscribe(ctx, topic, subscriptionName, api.CommandSubscribe_Shared, initialPosition, queue)
 }
 
 // NewExclusiveConsumer creates a new exclusive consumer capable of reading messages from the
@@ -198,8 +202,12 @@ func (c *Client) NewExclusiveConsumer(ctx context.Context, topic, subscriptionNa
 // given topic.
 // See "Subscription modes" for more information:
 // https://pulsar.incubator.apache.org/docs/latest/getting-started/ConceptsAndArchitecture/#Subscriptionmodes-jdrefl
-func (c *Client) NewFailoverConsumer(ctx context.Context, topic, subscriptionName string, queue chan msg.Message) (*sub.Consumer, error) {
-	return c.Pubsub.Subscribe(ctx, topic, subscriptionName, api.CommandSubscribe_Failover, api.CommandSubscribe_Latest, queue)
+func (c *Client) NewFailoverConsumer(ctx context.Context, topic, subscriptionName string, earliest bool, queue chan msg.Message) (*sub.Consumer, error) {
+	initialPosition := api.CommandSubscribe_Latest
+	if earliest {
+		initialPosition = api.CommandSubscribe_Earliest
+	}
+	return c.Pubsub.Subscribe(ctx, topic, subscriptionName, api.CommandSubscribe_Failover, initialPosition, queue)
 }
 
 // handleFrame is called by the underlaying core with
